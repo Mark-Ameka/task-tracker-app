@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Action from "./layouts/widgets/Action";
-import Input from "./layouts/widgets/Input";
+import Action from "./widgets/Action";
+import Input from "./widgets/Input";
 import { useLocalStorage } from "../localStorage/useLocalStorage";
 
 function AddTask() {
