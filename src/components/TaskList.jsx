@@ -11,8 +11,8 @@ function TaskList() {
   }, []);
 
   return (
-    <div className="px-36">
-      <h1>Task List</h1>
+    <div className="max-w-lg mx-auto">
+      <h1 className="text-3xl ">Task List</h1>
       <ul>
         {items.map((item, index) => (
           <li key={index}>{item}</li>
